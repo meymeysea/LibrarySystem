@@ -13,5 +13,9 @@
     <style name="font_lena">
         <item name="android:fontFamily">@font/lena</item>
     </style>
+    <style name="font_baskerville">
+        <item name="android:fontFamily">@font/baskerville</item>
+    </style>
+
 
 </resources>

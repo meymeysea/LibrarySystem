@@ -30,21 +30,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center_horizontal"
+        android:gravity="center"
         android:layout_marginTop="30dp">
 
-        <ImageButton
-            android:id="@+id/Admin"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/professor"
-            android:background="@color/colorOrange" />
-
-        <ImageButton
-            android:id="@+id/Student"
-            android:layout_width="120dp"
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="110dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/student"
-            android:background="@color/colorOrange"/>
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/design"
+            android:fontFamily="@font/lena"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_marginLeft="15dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:fontFamily="@font/lena"
+            android:background="@drawable/design"/>
+
     </LinearLayout>
 </LinearLayout>
